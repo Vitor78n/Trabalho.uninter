@@ -1,0 +1,433 @@
+body {
+ 
+  background-color: rgb(87, 41, 41);
+background-attachment: fixed;
+}
+.titulo { 
+
+font-size:55px;
+color:rgba(87, 41, 41);
+font-family:cursive;
+border-radius:40px; 
+position:absolute;
+left:775px;
+top:70px;
+z-index:5;
+}
+
+.semi-titulo{
+font-size:45px;
+color:rgb(54, 52, 50);
+position:absolute;
+left:765px;
+top:340px;
+z-index:4;
+}
+.semi-titulo-da-tabela{
+  font-size:23px;
+color:rgb(54, 52, 50);
+position:absolute;
+right:515px;
+top:670px;
+z-index:6;
+transform: rotate(25deg);
+
+}
+ul{
+  font-size:25px;
+  font-family:cursive;
+  width:110px;
+  padding:1px ;
+  border-radius:30px ;
+   color:rgb(54, 52, 50);
+  position:absolute;
+right:690px;
+  top:1200px;
+  z-index:4;
+  font-weight: 400;
+}
+h4{
+font-size:45px;
+color:rgb(54, 52, 50);
+position:absolute;
+right:460px;
+top:1100px;
+z-index:4;
+
+}
+
+/*p {
+ 
+font-size:20px;
+color:rgba(54, 52, 50, 0.788);
+background-color:#e8e8e8c7;
+position:absolute;
+border-radius:50px;
+left:250px;
+top:530px;
+}*/
+
+main {
+  font-size:23px;
+  font-family:cursive;
+  width:320px;
+  padding:1px ;
+  border-radius:30px ;
+  color:rgba(54, 52, 50, 0.971);
+  position:absolute;
+  left:470px;
+  top:600px;
+  z-index:4;
+  font-weight: 400;
+}
+div {
+  width: 700px;
+  height: 500px;
+  border-width: 2px;
+  border-color: rgba(0, 0, 0, 0.332);
+  background-color:#cec7b3;
+  border-style:solid;
+  display: inline-block;
+  position:absolute
+}
+table{
+  top:680px;
+  right:530px;
+  font-size:20px ;
+  font-family:cursive ;
+  width:280px ;
+  height:100px ;
+ background-color: rgb(87, 41, 41);  
+ background-image:url(pico.jpg) ;
+ background-size:cover;
+ background-position:center;
+position:absolute;
+border-radius:5px ;
+border: 2px solid black;
+box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.466) ;
+padding-top: 40px;
+z-index:2 ;
+transform: rotate(25deg);
+}
+
+td{
+    background-color:#cec7b3;
+  width:70px;
+border: 2px solid black;
+border-radius:5px ;
+
+}
+ td.canada{
+  background-image:url(Flag_of_Canada_\(Pantone\).svg) ;
+background-size: cover;
+background-position:center ;
+ }
+td.japao{
+  background-image:url(Flag_of_Japan.svg.png) ;
+background-size: cover;
+background-position:center ;
+
+}
+td.china{
+background-image:url(china.webp) ;
+background-size: cover;
+background-position:center ;
+ }
+#caixa1 {
+left:400px;
+top:0px;
+width:60% ;
+height:200%;
+bottom:0px;
+border-radius:30px;
+background-color:rgb(220, 245, 220);
+z-index:2;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+border-color: black;
+
+}
+
+#caixa5{
+  left:398.6px;
+  width:60.1% ;
+  height:20%;
+  top:70px;
+ box-shadow: 0px 8px 5px  rgba(0, 0, 0, 0.469) ;
+  z-index:2;
+
+
+}
+#caixa2 {
+  background-color: rgb(200, 192, 174);  
+ border-radius:80px ;
+  left:420px;
+  top:600px;
+  height:55%;
+  width:450px ;
+   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.466) ;
+  z-index:4;
+  }
+ #caixa3 {
+   width:200px;
+   height:200px;
+    right:390px;
+    top:68px;
+    background-image:url(goku.jpg) ;
+    z-index:3 ;
+    mix-blend-mode: multiply;
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+   
+     border:none;
+    
+  }
+#caixa4 {
+    width:10%;
+    height:20%;
+    right:280px;
+    bottom:-940px;
+    background-position: center;
+    background-color: transparent;
+    background-size: cover;
+    border:none;
+    mix-blend-mode: multiply;
+    transform: rotate(335deg);
+    background-image:url(florsvg.jpg); 
+    background-repeat: no-repeat;
+    z-index:5 ;}
+
+#caixa6 {
+  left:790px;
+  width:17% ;
+  height:0%;
+  top:180px;
+  border-radius:30px;
+  border-color:rgb(54, 52, 50);
+  z-index:3
+
+}
+#caixa7 {
+  left:850px;
+  width:10% ;
+  height:0%;
+  top:230px;
+  border-radius:30px;
+  border-color:rgb(54, 52, 50);
+  z-index:3
+
+}
+#caixa8{
+  background-image:url(goten.jpg) ;
+  z-index:3 ;
+  width:200px;
+  height:200px ;
+  left:540px;
+  top:315px;
+  mix-blend-mode: multiply;
+  border:none;
+  background-repeat:no-repeat;
+  background-size: center;
+  background-position:center ;
+  background-size: cover;
+}
+#caixa9{
+  background-image:url(Trunks.jpg) ;
+  z-index:2 ;
+  width:220px;
+  height:300px ;
+  right:460px;
+  top:880px;
+  mix-blend-mode: multiply;
+  border:none;
+  background-repeat:no-repeat;
+  background-size: center;
+  background-position:center ;
+  background-size: cover;}
+#caixa10 {
+ background-color: rgb(200, 192, 174);  
+ border-radius:80px ;
+  right:365px;
+  top:1160px;
+  height:55%;
+  width:450px ;
+   box-shadow: 0px 5px 5px  rgba(0, 0, 0, 0.469) ;
+  z-index:2;
+}
+#caixa11 {
+  left:398px;
+  width:60% ;
+  height:1.7%;
+  top:500px;
+  border-radius: 5px;
+  border-color:rgb(54, 52, 50);
+  background-image: url(TexturaMadeiraaa.jpg);
+  background-size: cover;
+   box-shadow: 0px 5px 5px  rgba(0, 0, 0, 0.469) ;
+  z-index:3}
+
+  #caixa12 {
+    width:10%;
+    height:20%;
+    left:320px;
+    top:0px;
+    background-position: center;
+    background-color: transparent;
+    background-size: cover;
+    border:none;
+    mix-blend-mode: multiply;
+    transform: rotate(333deg);
+    background-image:url(florsvg.jpg); 
+    background-repeat: no-repeat;
+    z-index:5 ;
+  }
+  #caixa13{
+     width:220px;
+   height:340px;
+    left:300px;
+    top:1620px;
+    background-image:url(lendinha.jpg) ;
+    z-index:5 ;
+    mix-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+     border:none;}
+  
+  #caixa14{
+  width:300px ;
+  height:485px ;
+ left:748px;
+ top:1303px; 
+ background-position: center; 
+ background-size: cover;
+  background-image:url(sentatosGoten.jpg);
+  background-repeat: no-repeat;
+  border:none ;
+  mix-blend-mode:multiply ;
+  z-index:2 ;
+  }
+  #caixa15{
+  left:398px;
+  width:60% ;
+  height:1.7%;
+  top:1760px;
+  border-radius:5px;
+  border-color:rgb(54, 52, 50);
+  background-image:url(TexturaMadeiraaa.jpg) ;
+  background-size: cover;
+  background-position:right ;
+   box-shadow: 0px 5px 5px  rgba(0, 0, 0, 0.469) ;
+  z-index:4}
+  #caixa16 {
+  width:195px ;
+  height: 200px;
+  left:450px;
+  top:67px;
+  border: none;
+  z-index:3 ; 
+  background-repeat: no-repeat;
+  background-position: center; 
+  mix-blend-mode: multiply;
+  background-size: cover;
+  background-image:url(Kuririn.jpg) ;
+
+  }
+
+    #caixa17 {
+  width:200px ;
+  height:200px;
+  right:460px;
+  top:300px;
+  border: none;
+  z-index:2 ; 
+  background-repeat: no-repeat;
+  background-position: center; 
+  mix-blend-mode: multiply;
+  background-size: cover;
+  background-image:url(goku2.jpg) ;}
+
+  #caixa18{  
+ border-radius:80px ;
+  right:600px;
+  top:480px;
+  background-image: url(corrente.jpg);
+  background-position:center ;
+  background-size: cover ;
+  background-repeat: no-repeat;
+  mix-blend-mode: multiply;
+  border:none;
+  height:23%;
+  width:70px ;
+  z-index:2;
+  }
+    #caixa19 {
+  width:160px ;
+  height:160px;
+  right:615px;
+  top: 1330px;
+  border: none;
+  z-index:5 ; 
+  border-radius:30px ;
+   box-shadow:0px 5px 5px  rgba(0, 0, 0, 0.469);
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: cover;
+  background-image:url(leitura.png) ;
+  }
+      #caixa20 {
+  width:160px ;
+  height:160px;
+  right:390px;
+  top: 1330px;
+  border: none;
+  z-index:5 ; 
+  border-radius:30px ;
+   box-shadow:0px 5px 5px  rgba(0, 0, 0, 0.469);
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: cover;
+  background-image:url(estudando.jpg) ;
+
+}
+    #caixa21 {
+  width:160px ;
+  height:160px;
+  right:500px;
+  top: 1520px;
+  border: none;
+  z-index:5 ; 
+  border-radius:30px ;
+   box-shadow:0px 5px 5px  rgba(0, 0, 0, 0.469);
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: cover;
+  background-image:url(jogar.png) ;
+}
+  button {
+    display:block;
+    font-family: cursive;
+    position: absolute;
+    font-size:20px ;
+    color:rgb(54, 52, 50);
+    background-color: rgb(200, 192, 174);
+    box-shadow:0px 5px 5px  rgba(0, 0, 0, 0.469);
+    top:1820px;
+    left:830px;
+    width: 250px;
+    height: 75px;
+    z-index:5;
+    border-radius:10px ;
+    font-weight:400 ;
+    cursor:pointer ;
+    transition:transform 200ms ease-in-out;
+
+  
+  }
+
+button:hover{
+transform: scale(1.05);
+background-color:#dcd3ba;
+}
